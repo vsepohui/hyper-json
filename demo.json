@@ -1,0 +1,31 @@
+{
+	html: {
+		head: {
+			meta: {lang: 'ru'},
+			meta: {charset: 'utf-8'},
+			title: {val: ["Анархия :: Обратная связь"]},
+		},
+		body: {val: [
+			main: {val: [
+				div: {
+					class: 'container',
+					val: [
+						p: {
+							class: 'title',
+							val: [
+								a: {
+									href: '/',
+									class: 'tt',
+									val: [
+										"Анархия",
+									]
+								}
+							]
+						}
+					]
+				}
+			]}
+		]}
+	}
+}
+
