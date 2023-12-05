@@ -1,68 +1,71 @@
 {
-	html: [
-		{
-			head: [
-				{meta: {lang: 'ru'}},
-				{meta: {charset: 'utf-8'}},
-				{title: "Анархия :: Обратная связь"}
-			]
-		},
-		{
-			body: [
-				{
-					main: [
-						{
-							div: {
-								class: 'container',
-								_: [
-									{p: {class: 'title', _: [{a: {href: '/', class: 'tt', _: ['Анархия']}}]}},
-									{hr: {style: 'margin-top: -1px;'}},
-									{p: {class: "sub-title", _: ['Ежедневное Печатное Издание - издающееся Анархистами России с 2023 года.']}},
-									{hr: {}},
-									{div: {
-										class: "nav-scroller py-1 mb-2",
-										style: 'margin-top: -22px; margin-bottom: -5px !important;',
-										_: [
-											nav: {
-												class: 'nav justify-content-between',
-												_: [
-													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/', _: ['Публикации']}},
-													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/politics', _: ['Политика']}},
-													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/culture', _: ['Культура']}},
-													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/ads', _: ['Реклама']}},
-													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/publish', _: ['Подать публикацию']}},
-													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/chat', _: ['Чат']}},
-													{a: {class: 'nav-item nav-link link-body-emphasis active', href: '/chat', _: ['Обратная связь']}}
-													
-												]
-											}
-										]
-									}},
-									{hr: {}},
-									{div: {
-										class: 'container',
-										_: [
-											{div: {
-												class: 'row',
-												style: 'margin-bottom: 30px;',
-												_: [
-													'Раздел находится на стадии подготовки.'
-												]
-											}}
-										]
-									}}
-								],
-							}
-						},
-						{hr: {}},
-						{p: {
-							align: 'center',
-							_: ['Претензии принимаются на email руководителя издания - Товарища Трунаева - trunaev.ivan@icloud.com. По вопросам размещение рекламы - обращаться туда же.']
-						}},
-					]
-				}
-			]
-		}
-	]
+	html: {
+		lang: 'ru',
+		_: [
+			{
+				head: [
+					{meta: {charset: 'utf-8'}},
+					{meta: {name: "generator", content: "Wordpress"}},
+					{link: {href: "/css/bootstrap.min.css", rel: "stylesheet"}},
+					{link: {href: "/css/style.css?v=6", rel: "stylesheet"}},
+					{title: "Анархия :: Обратная связь"}
+				]
+			},
+			{
+				body: [
+					{
+						main: [
+							{
+								div: {
+									class: 'container',
+									_: [
+										{p: {class: 'title', _: [{a: {href: '/', class: 'tt', _: 'Анархия'}}]}},
+										{hr: {style: 'margin-top: -1px;'}},
+										{p: {class: "sub-title", _: 'Ежедневное Печатное Издание - издающееся Анархистами России с 2023 года.'}},
+										{hr: {}},
+										{div: {
+											class: "nav-scroller py-1 mb-2",
+											style: 'margin-top: -22px; margin-bottom: -5px !important;',
+											_: [
+												nav: {
+													class: 'nav justify-content-between',
+													_: [
+														{a: {class: 'nav-item nav-link link-body-emphasis', href: '/', _: 'Публикации'}},
+														{a: {class: 'nav-item nav-link link-body-emphasis', href: '/politics', _: 'Политика'}},
+														{a: {class: 'nav-item nav-link link-body-emphasis', href: '/culture', _: 'Культура'}},
+														{a: {class: 'nav-item nav-link link-body-emphasis', href: '/ads', _: 'Реклама'}},
+														{a: {class: 'nav-item nav-link link-body-emphasis', href: '/publish', _: 'Подать публикацию'}},
+														{a: {class: 'nav-item nav-link link-body-emphasis', href: '/chat', _: 'Чат'}},
+														{a: {class: 'nav-item nav-link link-body-emphasis active', href: '/chat', _: 'Обратная связь'}}
+														
+													]
+												}
+											]
+										}},
+										{hr: {}},
+										{div: {
+											class: 'container',
+											_: [
+												{div: {
+													class: 'row',
+													style: 'margin-bottom: 30px;',
+													_: 'Раздел находится на стадии подготовки.'
+												}}
+											]
+										}}
+									],
+								}
+							},
+							{hr: {}},
+							{p: {
+								align: 'center',
+								_: 'Претензии принимаются на email руководителя издания - Товарища Трунаева - trunaev.ivan@icloud.com. По вопросам размещение рекламы - обращаться туда же.'
+							}},
+						]
+					}
+				]
+			}
+		]
+	}
 }
 
