@@ -45,13 +45,13 @@
 										{hr: {}},
 										{div: {
 											class: 'container',
-											_: [
-												{div: {
+											_: {
+												div: {
 													class: 'row',
 													style: 'margin-bottom: 30px;',
 													_: 'Раздел находится на стадии подготовки.'
-												}}
-											]
+												}
+											}
 										}}
 									],
 								}
