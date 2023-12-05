@@ -1,35 +1,68 @@
 {
-	html: {
-		head: {
-			meta: {lang: 'ru'},
-			meta: {charset: 'utf-8'},
-			title: {val: ["Анархия :: Обратная связь"]}
+	html: [
+		{
+			head: [
+				{meta: {lang: 'ru'}},
+				{meta: {charset: 'utf-8'}},
+				{title: {val: ["Анархия :: Обратная связь"]}}
+			]
 		},
-		body: {val: [
-			main: {val: [
-				div: {
-					class: 'container',
-					val: [
-						p: {
-							class: 'title',
-							val: [
-								a: {
-									href: '/',
-									class: 'tt',
-									val: [
-										"Анархия"
-									]
-								}
-							]
+		{
+			body: [
+				{
+					main: [
+						{
+							div: {
+								class: 'container',
+								val: [
+									{p: {class: 'title', val: [{a: {href: '/', class: 'tt', val: ['Анархия']}}]}},
+									{hr: {style: 'margin-top: -1px;'}},
+									{p: {class: "sub-title", val: ['Ежедневное Печатное Издание - издающееся Анархистами России с 2023 года.']}},
+									{hr: {}},
+									{div: {
+										class: "nav-scroller py-1 mb-2",
+										style: 'margin-top: -22px; margin-bottom: -5px !important;',
+										val: [
+											nav: {
+												class: 'nav justify-content-between',
+												val: [
+													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/', val: ['Публикации']}},
+													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/politics', val: ['Политика']}},
+													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/culture', val: ['Культура']}},
+													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/ads', val: ['Реклама']}},
+													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/publish', val: ['Подать публикацию']}},
+													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/chat', val: ['Чат']}},
+													{a: {class: 'nav-item nav-link link-body-emphasis active', href: '/chat', val: ['Обратная связь']}}
+													
+												]
+											}
+										]
+									}},
+									{hr: {}},
+									{div: {
+										class: 'container',
+										val: [
+											{div: {
+												class: 'row',
+												style: 'margin-bottom: 30px;',
+												val: [
+													'Раздел находится на стадии подготовки.'
+												]
+											}}
+										]
+									}}
+								],
+							}
 						},
-						hr: {style: "margin-top: -1px;"},
-						p: {class="sub-title", val: [
-							"Ежедневное Печатное Издание - издающееся Анархистами России с 2023 года."
-						]}
+						{hr: {}},
+						{p: {
+							align: 'center',
+							val: ['Претензии принимаются на email руководителя издания - Товарища Трунаева - trunaev.ivan@icloud.com. По вопросам размещение рекламы - обращаться туда же.']
+						}},
 					]
 				}
-			]}
-		]}
-	}
+			]
+		}
+	]
 }
 
