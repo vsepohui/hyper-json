@@ -4,7 +4,7 @@
 			head: [
 				{meta: {lang: 'ru'}},
 				{meta: {charset: 'utf-8'}},
-				{title: {val: ["Анархия :: Обратная связь"]}}
+				{title: {"Анархия :: Обратная связь"}
 			]
 		},
 		{
@@ -14,25 +14,25 @@
 						{
 							div: {
 								class: 'container',
-								val: [
-									{p: {class: 'title', val: [{a: {href: '/', class: 'tt', val: ['Анархия']}}]}},
+								_: [
+									{p: {class: 'title', _: [{a: {href: '/', class: 'tt', _: ['Анархия']}}]}},
 									{hr: {style: 'margin-top: -1px;'}},
-									{p: {class: "sub-title", val: ['Ежедневное Печатное Издание - издающееся Анархистами России с 2023 года.']}},
+									{p: {class: "sub-title", _: ['Ежедневное Печатное Издание - издающееся Анархистами России с 2023 года.']}},
 									{hr: {}},
 									{div: {
 										class: "nav-scroller py-1 mb-2",
 										style: 'margin-top: -22px; margin-bottom: -5px !important;',
-										val: [
+										_: [
 											nav: {
 												class: 'nav justify-content-between',
-												val: [
-													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/', val: ['Публикации']}},
-													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/politics', val: ['Политика']}},
-													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/culture', val: ['Культура']}},
-													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/ads', val: ['Реклама']}},
-													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/publish', val: ['Подать публикацию']}},
-													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/chat', val: ['Чат']}},
-													{a: {class: 'nav-item nav-link link-body-emphasis active', href: '/chat', val: ['Обратная связь']}}
+												_: [
+													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/', _: ['Публикации']}},
+													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/politics', _: ['Политика']}},
+													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/culture', _: ['Культура']}},
+													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/ads', _: ['Реклама']}},
+													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/publish', _: ['Подать публикацию']}},
+													{a: {class: 'nav-item nav-link link-body-emphasis', href: '/chat', _: ['Чат']}},
+													{a: {class: 'nav-item nav-link link-body-emphasis active', href: '/chat', _: ['Обратная связь']}}
 													
 												]
 											}
@@ -41,11 +41,11 @@
 									{hr: {}},
 									{div: {
 										class: 'container',
-										val: [
+										_: [
 											{div: {
 												class: 'row',
 												style: 'margin-bottom: 30px;',
-												val: [
+												_: [
 													'Раздел находится на стадии подготовки.'
 												]
 											}}
@@ -57,7 +57,7 @@
 						{hr: {}},
 						{p: {
 							align: 'center',
-							val: ['Претензии принимаются на email руководителя издания - Товарища Трунаева - trunaev.ivan@icloud.com. По вопросам размещение рекламы - обращаться туда же.']
+							_: ['Претензии принимаются на email руководителя издания - Товарища Трунаева - trunaev.ivan@icloud.com. По вопросам размещение рекламы - обращаться туда же.']
 						}},
 					]
 				}
