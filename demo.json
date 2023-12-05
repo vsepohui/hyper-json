@@ -37,7 +37,6 @@
 														{a: {class: 'nav-item nav-link link-body-emphasis', href: '/publish', _: 'Подать публикацию'}},
 														{a: {class: 'nav-item nav-link link-body-emphasis', href: '/chat', _: 'Чат'}},
 														{a: {class: 'nav-item nav-link link-body-emphasis active', href: '/chat', _: 'Обратная связь'}}
-														
 													]
 												}
 											]
