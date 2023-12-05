@@ -3,7 +3,7 @@
 		head: {
 			meta: {lang: 'ru'},
 			meta: {charset: 'utf-8'},
-			title: {val: ["Анархия :: Обратная связь"]},
+			title: {val: ["Анархия :: Обратная связь"]}
 		},
 		body: {val: [
 			main: {val: [
